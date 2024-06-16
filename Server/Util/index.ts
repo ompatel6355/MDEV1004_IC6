@@ -40,7 +40,7 @@ export function GenerateToken(user: UserDocument): string
 
     const jwtOptions =
     {
-        expiresIn: 604800 // 1 week
+        expiresIn: 604800 
         // Note: this may be a security risk, as the token will be valid for a week
     }
 
